@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Environment Variables & Secrets (NEVER COMMIT SECRETS TO GITHUB)
+.env
+
+# Database (keep demo argus.db if needed or ignore local locks)
+*.db-journal
+*.db-wal
+*.db-shm
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary patch scripts
+scripts/patch_*.py
